@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller()
 public class MainController {
 
-    @RequestMapping("/home")
+    @RequestMapping("/")
     public String home(){
         return "Hello world, this msg is from spring boot controller docker";
     }
